@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1140px;
+    margin: auto;
+}
+.country{
+    border: 2px solid salmon;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(182, 182, 182);
+
+}
+.country img{
+ width: 300px;
+ height: 200px;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+#info-container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+}
+.img img{
+    width: 100%;
+    height: 400px;
+    
+}
